@@ -1,0 +1,52 @@
+.app {
+  min-height: 100vh;
+  padding: 25px;
+  background: #f5f7fb;
+  color: #262626;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 35px auto;
+}
+
+.heading h2 {
+  margin-bottom: 5px;
+  color: #1677ff;
+  font-size: 30px;
+}
+
+.heading p {
+  margin-top: 0;
+  color: #888888;
+  font-size: 15px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 280px;
+}
+
+.spinContent {
+  width: 100px;
+  height: 80px;
+}
+
+.footer {
+  padding: 25px;
+  text-align: center;
+  color: #999999;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 12px;
+  }
+
+  .heading h2 {
+    font-size: 24px;
+  }
+}
